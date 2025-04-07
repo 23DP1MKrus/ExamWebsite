@@ -124,4 +124,45 @@ marquee{
 marquee li img{
     width: 100%;
 }
+#mockupSection{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+#macbookMockup{
+    align-self: center;
+    justify-self: center;
+    width: 50%;
+    height: 100%;
+    padding:0;
+    margin: 0;
+    z-index: 2;
+}
+#mockupContainer{
+    display: grid;
+    width: 100%;
+}
+#mockupContainer h1{
+    color: #9758e4;
+    font-size: 9vw;
+    font-family: var(--second-family);
+}
+#meetWord{
+    align-self: start;
+    justify-self: start;
+    padding:0;
+    z-index: 1;
+    margin-bottom: -5vh;
+    margin-left: 8.5vw;
+}
+#futureWord{
+    align-self: end;
+    justify-self: end;
+    padding:0;
+    z-index: 1;
+    margin-top: -5vh;
+    margin-right: 7vw;
+}
 
