@@ -1,18 +1,11 @@
-:root {
-    --font-family: "Raleway", sans-serif;
-    --second-family: "Bebas Neue", sans-serif;
-    --third-family: "Inter", sans-serif;
-    --font3: "Russo One", sans-serif;
-    --font4: "Poppins", sans-serif;
-    --font5: "Bellota Text", sans-serif;
-    --font6: "Irancell", sans-serif;
-}
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 
 
 body{
     background-color: black;
     margin:0;
     padding:0;
+    font-family: "Raleway", sans-serif;
 }
 /*header{*/
 /*    display: flex;*/
@@ -23,15 +16,14 @@ body{
 /*    width: 50%;*/
 /*}*/
 
-
-
 #heroSection {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: start;
-
+    background-attachment: fixed;
     color: white;
+    position: sticky;
 }
 #rightSide{
     display: grid;
@@ -54,7 +46,6 @@ nav{
     margin-right: 2vw;
     margin-top: 2vh;
     font-size: 1vw;
-    font-family: var(--font-family);
 }
 #heroRightSideText{
     align-self: start;
@@ -67,18 +58,16 @@ nav{
     margin-left: 3vw;
 }
 #heroRightSideText h1{
-    font-family: var(--second-family);
     line-height: 90%;
     font-size: 5vw;
     padding-bottom: 0;
     margin-bottom: 0;
 }
 #heroRightSideText p{
-    font-family: var(--font-family);
     padding-top: 0;
     margin-top: 0;
     font-size:1vw;
-    width: 35%;
+    width: 60%;
 }
 #heroButtonsContainer{
     width: 30%;
@@ -97,7 +86,7 @@ nav{
     border-radius: 20px;
     width: 10vw;
     height: 4vh;
-    font-family: var(--font-family);
+
 }
 .arrowButtonViolet{
     background: #9758e4;
@@ -123,4 +112,56 @@ marquee{
 marquee li img{
     width: 100%;
 }
+#secondSection{
+    height: 100vh;
+    background-color: white;
+    border-radius: 3vh;
+    padding: 3vw;
+
+}
+.unleash{
+    display: flex;
+    justify-content: space-between;
+}
+.second-section-text p{
+    margin-top: -2vh;
+    width: 30vw;
+}
+h1{
+    font-size: 4vw;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: lighter;
+}
+#imgWidget{
+    display: flex;
+    background-image: url("imgs/img_widget.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 20vw;
+    height: 30vh;
+    border-radius: 1vw;
+}
+#imgWidget button{
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
