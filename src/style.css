@@ -24,6 +24,9 @@ body{
     background-attachment: fixed;
     color: white;
     position: sticky;
+    top: 0;
+    z-index: 4;
+
 }
 #rightSide{
     display: grid;
@@ -117,7 +120,8 @@ marquee li img{
     background-color: white;
     border-radius: 3vh;
     padding: 3vw;
-
+    position: relative;
+    z-index: 5;
 }
 .unleash{
     display: flex;
