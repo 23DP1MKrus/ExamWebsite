@@ -110,6 +110,10 @@ nav{
     justify-content: center;
     border: none;
 }
+.arrowButtonViolet img{
+    width: 5vw;
+    height: 5vh;
+}
 #marqueeContainer{
     display: flex;
     flex-direction: row;
@@ -125,11 +129,11 @@ marquee li img{
     width: 100%;
 }
 #mockupSection{
-    height: 100vh;
+    height: 80vh;
     display: flex;
     align-items: center;
     justify-content: center;
-
+    margin-top: 20vh;
 }
 #macbookMockup{
     align-self: center;
@@ -154,15 +158,13 @@ marquee li img{
     justify-self: start;
     padding:0;
     z-index: 1;
-    margin-bottom: -5vh;
-    margin-left: 8.5vw;
+    margin: 0 0 -5vh 8.5vw;
 }
 #futureWord{
     align-self: end;
     justify-self: end;
     padding:0;
     z-index: 1;
-    margin-top: -5vh;
-    margin-right: 7vw;
+    margin: -5vh 6vw 0 0;
 }
 
