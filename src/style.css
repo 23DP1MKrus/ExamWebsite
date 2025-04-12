@@ -256,7 +256,6 @@ h1{
     justify-self: start;
 }
 #reviews-container{
-    background-color: antiquewhite;
     height: 90vh;
     width: 90%;
     align-self: center;
@@ -480,4 +479,57 @@ h1{
     align-items: start;
     height: 35%;
 }
-
+#twin-review{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    width: 35%;
+    height: 50%;
+    position: relative;
+    top: -147%;
+    left: 70%;
+    color: white;
+    border-radius: 1vh;
+}
+#twin-text{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-between;
+    width: 90%;
+    background-image: url("imgs/messageBg.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#twin-text h1{
+    margin: 0;
+    font-size: 2vw;
+    margin-left: 1vw;
+    margin-top: 2vh;
+}
+#twin-text p{
+    width: 70%;
+    text-align: left;
+    font-size: 1vw;
+    margin-left: 1vw;
+    margin-bottom: 0;
+    margin-top: 2vh;
+}
+#twin-avatar{
+    position: relative;
+    left: 75%;
+    bottom: -20%;
+    width: 20%;
+}
+#twin-stars{
+    width: 20%;
+    margin-top: 2vh;
+    margin-left: 1vw;
+}
+#twin-quote{
+    width: 7%;
+    position: relative;
+    bottom: -16%;
+    left: 25%;
+}
