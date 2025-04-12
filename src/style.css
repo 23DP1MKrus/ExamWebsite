@@ -242,3 +242,110 @@ h1{
     margin: -6vh 12vw 0 0;
 }
 
+#reviews-section{
+    background-color: white;
+    border-radius: 3vh;
+    height: 100vh;
+    position: relative;
+    z-index: 2;
+    display: grid;
+}
+#reviews-title{
+    margin: 0;
+    align-self: start;
+    justify-self: start;
+}
+#reviews-container{
+    background-color: antiquewhite;
+    height: 90vh;
+    width: 90%;
+    align-self: center;
+    justify-self: center;
+}
+#review-jeff{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 30%;
+    height: 25%;
+    background-color: black;
+    color: white;
+    border-radius: 1vh;
+    margin-left: 2vw;
+    margin-top: 2vh;
+}
+#review-jeff h1{
+    margin: 0;
+    font-size: 1.5vw;
+}
+#jeff-text{
+    width: 100%;
+    margin-left: 1vw;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    gap: 1vh;
+}
+#jeff-text img{
+    width: 30%;
+}
+#review-jeff p{
+    margin: 0;
+    font-size: 1vw;
+    width: 100%;
+}
+#jeff-avatar{
+    width: 20%;
+    margin-left: 1vw;
+}
+#jeff-quote{
+    position: relative;
+    bottom: 45%;
+    right: 10%;
+    width: 10%;
+}
+#review-sarah{
+    background-color: black;
+    width: 20%;
+    height: 40%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-between;
+    margin-top: 3vh;
+    border-radius: 1vh;
+    margin-left: 3vw;
+}
+#review-sarah p{
+    margin-left: 1vw;
+    margin-top: 1vh;
+    width: 80%;
+    font-size: 1vw;
+}
+#sarah-stars{
+    width: 30%;
+    margin-left: 1vw;
+    margin-top: 1vh;
+}
+#sarah-lower-container{
+    background-color: #9758e4;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+    gap: 1vw;
+    width: 100%;
+    height: 30%;
+    border-radius: 0 0 1vh 1vh;
+}
+#sarah-lower-container h1{
+    font-size: 2vw;
+}
+#sarah-avatar{
+    width: 20%;
+    margin-left: 1vw;
+}
+
+
