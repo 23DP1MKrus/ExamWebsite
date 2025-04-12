@@ -349,10 +349,10 @@ h1{
 }
 #review-jack{
     background-color: black;
-    width: 20%;
-    height: 50%;
+    width: 25%;
+    height: 45%;
     position: relative;
-    bottom: 50%;
+    bottom: 65%;
     left: 40%;
     display: flex;
     flex-direction: column;
@@ -383,10 +383,50 @@ h1{
 #jack-avatar{
     position: relative;
     bottom: 15%;
-    width: 35%;
+    width: 30%;
 }
 #jack-stars{
     width: 30%;
 }
-
+#review-kristaps{
+    background-color: black;
+    width: 25%;
+    height: 40%;
+    position: relative;
+    bottom: 60%;
+    left: 40%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+    color: white;
+    border-radius: 1vh;
+}
+#kristaps-text{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: center;
+    gap: 1vh;
+    background-color: black;
+    width: 100%;
+    margin-right: 1vw;
+}
+#kristaps-text h1{
+    margin: 0;
+    font-size: 2vw;
+}
+#kristaps-text p{
+    width: 80%;
+    text-align: right;
+    font-size: 1vw;
+}
+#kristaps-avatar{
+    position: relative;
+    right: 15%;
+    width: 30%;
+}
+#kristaps-stars{
+    width: 40%;
+}
 
