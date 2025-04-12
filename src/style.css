@@ -16,6 +16,8 @@ body{
     background-attachment: fixed;
     color: white;
     position: sticky;
+    top: 0;
+    z-index: 0;
 }
 #rightSide{
     display: grid;
@@ -48,7 +50,7 @@ nav{
     justify-content: space-between;
     gap: 5vh;
     margin-left: 3vw;
-    margin-bottom: 20vh;
+    margin-bottom: 40vh;
 }
 #heroRightSideText h1{
     line-height: 90%;
@@ -114,7 +116,9 @@ marquee li img{
     background-color: white;
     border-radius: 3vh;
     padding: 3vw;
-
+    position: relative;
+    z-index: 1;
+    margin-top: -40vh;
 }
 .unleash{
     display: flex;
@@ -198,11 +202,13 @@ h1{
     height: 0px;
 }
 #mockupSection{
-    height: 80vh;
+    height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 20vh;
+    position: relative;
+    z-index: 2;
+    background-color: black;
 }
 #macbookMockup{
     align-self: center;
@@ -226,13 +232,13 @@ h1{
     justify-self: start;
     padding:0;
     z-index: 1;
-    margin: 0 0 -5vh 8.5vw;
+    margin: 0 0 -10vh 17.5vw;
 }
 #futureWord{
     align-self: end;
     justify-self: end;
     padding:0;
     z-index: 1;
-    margin: -5vh 6vw 0 0;
+    margin: -6vh 12vw 0 0;
 }
 
