@@ -91,6 +91,10 @@ nav{
     justify-content: center;
     border: none;
 }
+.arrowButtonViolet img{
+    width: 5vw;
+    height: 5vh;
+}
 #marqueeContainer{
     display: flex;
     flex-direction: row;
@@ -127,20 +131,20 @@ h1{
 }
 #imgWidget {
     display: flex;
-    align-items: flex-end; 
+    align-items: flex-end;
     background-image: url("imgs/img_widget.png");
     background-repeat: no-repeat;
     background-size: cover;
     width: 15vw;
     height: 25vh;
     border-radius: 1vw;
-    padding-bottom: 1vh; 
+    padding-bottom: 1vh;
     padding-left: 1vh;
 }
 
 #imgWidget button {
     background-color: white;
-    color: #9758E4; 
+    color: #9758E4;
     border: none;
     border-radius: 1vw;
     padding: 1vh 2vw;
@@ -159,8 +163,8 @@ h1{
 
 }
 #imgWidget button:hover {
-    background-color: #9758E4; 
-    color: white; 
+    background-color: #9758E4;
+    color: white;
     transition: background-color 0.3s ease, color 0.3s ease;
 }
 .widget{
@@ -172,7 +176,7 @@ h1{
     height: 25vh;
     background-color: #9758E4;
     border-radius: 1vw;
-    padding-bottom: 1vh; 
+    padding-bottom: 1vh;
     color: white;
 }
 .widget-button button{
@@ -193,20 +197,42 @@ h1{
     width: 100%;
     height: 0px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+#mockupSection{
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20vh;
+}
+#macbookMockup{
+    align-self: center;
+    justify-self: center;
+    width: 50%;
+    height: 100%;
+    padding:0;
+    margin: 0;
+    z-index: 2;
+}
+#mockupContainer{
+    display: grid;
+    width: 100%;
+}
+#mockupContainer h1{
+    color: #9758e4;
+    font-size: 9vw;
+}
+#meetWord{
+    align-self: start;
+    justify-self: start;
+    padding:0;
+    z-index: 1;
+    margin: 0 0 -5vh 8.5vw;
+}
+#futureWord{
+    align-self: end;
+    justify-self: end;
+    padding:0;
+    z-index: 1;
+    margin: -5vh 6vw 0 0;
+}
 
