@@ -251,7 +251,7 @@ h1{
     display: grid;
 }
 #reviews-title{
-    margin: 0;
+    margin: 0 0 0 1vw;
     align-self: start;
     justify-self: start;
 }
@@ -322,7 +322,7 @@ h1{
     margin-left: 1vw;
     margin-top: 1vh;
     width: 80%;
-    font-size: 1vw;
+    font-size: 0.9vw;
 }
 #sarah-stars{
     width: 30%;
@@ -346,6 +346,47 @@ h1{
 #sarah-avatar{
     width: 20%;
     margin-left: 1vw;
+}
+#review-jack{
+    background-color: black;
+    width: 20%;
+    height: 50%;
+    position: relative;
+    bottom: 50%;
+    left: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    color: white;
+    border-radius: 1vh;
+}
+#jack-text{
+    margin-top: -3vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1vh;
+    background-color: black;
+    width: 100%;
+}
+#jack-text h1{
+    margin: 0;
+    font-size: 2vw;
+}
+#jack-text p{
+    width: 80%;
+    text-align: center;
+    font-size: 1vw;
+}
+#jack-avatar{
+    position: relative;
+    bottom: 15%;
+    width: 35%;
+}
+#jack-stars{
+    width: 30%;
 }
 
 
