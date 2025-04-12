@@ -429,4 +429,55 @@ h1{
 #kristaps-stars{
     width: 40%;
 }
+#review-sam{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    width: 25%;
+    height: 37%;
+    position: relative;
+    top: -150%;
+    left: 70%;
+    color: white;
+    border-radius: 1vh;
+}
+#sam-text{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-between;
+    background-color: black;
+    width: 90%;
+    margin-left: 1vw;
+
+}
+#sam-text h1{
+    margin: 0;
+    font-size: 2vw;
+}
+#sam-text p{
+    width: 80%;
+    text-align: left;
+    font-size: 1vw;
+    margin-top: 0;
+}
+#sam-avatar{
+    position: relative;
+    width: 27%;
+    right: 10%;
+    top: -5vh;
+}
+#sam-stars{
+    width: 30%;
+    margin-left: 1vw;
+    margin-top: 2vh;
+}
+#sam-pictures{
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    height: 35%;
+}
 
