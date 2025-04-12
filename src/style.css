@@ -66,7 +66,6 @@ nav{
 }
 #heroButtonsContainer{
     width: 30%;
-
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -118,6 +117,7 @@ marquee li img{
     padding: 3vw;
     position: relative;
     z-index: 5;
+    margin-top: -43vh;
 }
 .unleash{
     display: flex;
@@ -674,3 +674,163 @@ h1{
     bottom: -16%;
     left: 25%;
 }
+#about-section{
+    background-color: white;
+    border-radius: 1vw;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    height: 100vh;
+    color: black;
+    position: relative;
+    z-index: 5;
+}
+#about-container{
+    width: 75%;
+    height: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#left-about{
+    display: grid;
+    width: 40%;
+}
+#about-picture{
+    width: 100%;
+    align-self: start;
+    justify-self: start;
+    z-index: 6;
+    position: relative;
+    border-radius: 1vw;
+}
+#left-lower-first{
+    position: relative;
+    background-color: white;
+    width: 47%;
+    min-height: 140%;
+    border-radius: 1vw;
+    display: grid;
+    z-index: 7;
+    border: 1px solid #000;
+}
+#left-lower-first button{
+    background: #9758e4;
+    border: none;
+    border-radius: 1.5vh;
+    align-self: center;
+    justify-self: center;
+    color: white;
+    height: 5vh;
+    width: 70%;
+    font-size: 1vw;
+}
+#left-lower-second{
+    background-color: #9758e4;
+    border-radius: 1vw;
+    color: white;
+    width: 47%;
+    display: flex;
+    height: 25vh;
+    align-items: start;
+    justify-content: space-around;
+    flex-direction: column;
+    padding: 0.5vw;
+    z-index: 7;
+}
+#left-lower-first h1{
+    font-size: 2vw;
+    margin: 0;
+    padding: 0;
+    margin-left: 1vw;
+    margin-top: 2vh;
+}
+#left-lower-first p{
+    width: 90%;
+    font-size: 1vw;
+    margin: 0;
+    padding: 0;
+    margin-left: 1vw;
+
+}
+#left-lower-second h1{
+    font-size: 1.5vw;
+    margin: 0;
+    padding: 0;
+    width: 80%;
+}
+#left-lower-second p{
+    font-size: 0.9vw;
+    margin: 0;
+    padding: 0;
+    width: 80%;
+}
+
+#left-lower-second button{
+    align-self: center;
+    justify-self: end;
+    width: 20%;
+    margin-left: 10vw;
+    background: black;
+    border: none;
+    border-radius: 2vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#left-lower-second button img{
+    width: 100%;
+}
+#lower-left-about{
+    width: 100%;
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+
+}
+#right-about{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+}
+#right-about h1{
+    margin: 0;
+}
+#right-lower-about{
+    width: 80%;
+
+}
+#about-btn-div{
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#df-btn{
+    width: 48%;
+    height: 5vh;
+    background-color: #9758e4;
+    color: white;
+    border: none;
+    border-radius: 0.5vw;
+    font-size: 1.2vw;
+}
+#outline-btn{
+    width: 48%;
+    height: 5vh;
+    background-color:white;
+    color: black;
+    border: 1px solid black;
+    border-radius: 0.5vw;
+    font-size: 1.2vw;
+}
+#right-about p{
+    font-size: 1.2vw;
+}
+
+
+
+
