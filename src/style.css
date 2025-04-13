@@ -112,13 +112,12 @@ marquee li img{
     width: 100%;
 }
 #secondSection{
-    height: 100vh;
+    height: 140vh;
     background-color: white;
     border-radius: 3vh;
     padding: 3vw;
     position: relative;
-    z-index: 1;
-    margin-top: -40vh;
+    z-index: 5;
 }
 .unleash{
     display: flex;
@@ -222,22 +221,22 @@ h1{
     background-repeat: no-repeat;
     padding: 0;
     margin: 0;
-    height: 100%;
-    width: 30%;
+    height: 90%;
+    width: 20%;
     color: white;
 }
 .offer-widgets{
     display: flex;
-    align-items: center;
-    justify-content: space-around;
-    gap: 1vw;
+    flex-direction: row;
     width: 100%;
     height: 100%;
+    align-items: center;
+    justify-content: center;
 }
 .offer-widget button{
     background-color: #1E1E1E;
     width: 3.5vw;
-    height: 4.5vh;
+    height: 4.2vh;
     border-radius: 1.6vh;
     display: flex;
     align-items: center;
@@ -246,7 +245,7 @@ h1{
     margin: 0.8vw;
     font-size: 3vh;
     position: relative;
-    bottom: 45.3vh;
+    bottom: 47vh;
     left: 10.9vw;
 }
 .offer-widget h2{
@@ -269,6 +268,76 @@ h1{
 }
 .offer-widget button img{
     margin-left: 0;
+}
+#plans{
+    z-index: 5;
+    background-color: black;
+    background-image: url("imgs/plans-bg.png");
+    position: relative;
+    height: 130vh;
+    width: 100%;
+    background-size: cover;
+}
+#plans-h1{
+    margin-top: 0;
+    color: #9758e4;
+    font-size: 19vh;
+    text-align: center;
+    padding-top: 6vh;
+}
+#plan-cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 4vw;
+}
+.plan-card h2{
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 4vw;
+    font-weight: lighter;
+    margin-bottom: 0;
+    text-align: center;
+}
+.plan-card{
+    backdrop-filter: blur(80px);
+    background: rgba(0, 0, 0, 0.01);
+    border-radius: 1vw;
+    color: white;
+    border: 2px solid rgba(151, 88, 228, 0.24);
+    width: 23vw;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 2.3vh;
+
+}
+.plan-card li{
+    list-style-type: circle;
+    color: white;
+    line-height:180%;
+}
+.down-button{
+    padding: 2vh 4vw;
+    border-radius: 1vw;
+    border: none;
+    color: #9758e4;
+    background-color: black;
+    font-size: 2vh;
+    margin-bottom: 2.5vw;
+}
+@media  (min-width: 600px) and (max-width: 1280px){
+    .plan-card{
+        width: 30vw;
+        height: 50vh;
+        padding: 1vw;
+        font-size: 2vw;
+
+    }
+    .down-button{
+        font-size: 2vh;
+    }
 }
 #mockupSection{
     height: 100vh;
