@@ -331,6 +331,104 @@ h1{
     font-size: 2vh;
     margin-bottom: 2.5vw;
 }
+#guide{
+    z-index: 6;
+    background-color: black;
+    position: relative;
+}
+#guide-text{
+    padding: 3vw;
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 2vw;
+}
+#guide-text h1{
+    margin: 0;
+    padding: 0;
+    font-size: 19vh;
+    color: #9758e4;
+    font-weight: lighter;
+}
+#guide-text p{
+    font-size: 2.3vh;
+    width: 30%;
+}
+#steps{
+    padding: 3vw;
+    display: flex;
+    gap: 1vw;
+    justify-content: space-around;
+}
+#step1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 1vh;
+    background-color: white;
+    border-radius: 2vh;
+    width: 20%;
+    padding: 2vh;
+    height: 30%;
+}
+#step1 button{
+    padding: 2vh;
+    font-size: 1vw;
+    width: 80%;
+    background-color: #9758e4;
+    border-radius: 2vh;
+    color: white;
+    border: none;
+}
+#steps h2{
+    font-family: "Bebas Neue", sans-serif;
+    font-size:3vw;
+    font-weight: lighter;
+    margin: 0;
+}
+.step2-4{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 1vh;
+    color: white;
+    border: 2px solid white;
+    border-radius: 2vh;
+    width: 20%;
+    padding: 2vh;
+    height: 40%;
+}
+.step-p{
+    display: flex;
+    gap: 1vh;
+    align-items: center;
+}
+.purple-line{
+    height: 8vh;
+    background-color: #9758e4;
+    width: 4px;
+}
+#step3{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 1vh;
+    background-color: white;
+    color: black;
+    border: 2px solid white;
+    border-radius: 2vh;
+    width: 20%;
+    padding: 2vh;
+}
+#step3 .purple-line{
+    height: 12vh;
+    width: 13px;
+}
+#purple-line{
+    height: 12vh;
+    background-color: #9758e4;
+    width: 8px;
+}
 @media  (min-width: 600px) and (max-width: 1280px){
     .plan-card{
         width: 30vw;
