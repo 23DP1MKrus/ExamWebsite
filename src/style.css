@@ -429,6 +429,16 @@ h1{
     background-color: #9758e4;
     width: 8px;
 }
+footer{
+    margin-top: 6vw;
+    padding-top: 3vw;
+    text-align: center;
+    color: black;
+    font-weight: bolder;
+    height: 5vw;
+    background-color: white;
+    border-radius: 2vw 2vw 0 0;
+}
 @media  (min-width: 600px) and (max-width: 1600px){
     .plan-card{
         width: 30vw;
