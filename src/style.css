@@ -272,7 +272,7 @@ h1{
 #plans{
     z-index: 5;
     background-color: black;
-    background-image: url("imgs/plans-bg.png");
+    background-image: url("imgs/plansBg.png");
     position: relative;
     height: 130vh;
     width: 100%;
@@ -878,7 +878,8 @@ footer{
     align-self: center;
     justify-self: end;
     width: 20%;
-    margin-left: 10vw;
+    height: 4vh;
+    margin-left: 11vw;
     background: black;
     border: none;
     border-radius: 2vh;
