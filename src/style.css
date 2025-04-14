@@ -930,15 +930,3 @@ footer{
 }
 
 
-
-
-@media  (min-width: 600px) and (max-width: 1000px){
-    #steps{
-        padding: 2vw;
-        display: flex;
-        gap: 1vw;
-        justify-content: space-around;
-        font-size: 1.5vw;
-    }
-}
-
