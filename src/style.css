@@ -441,7 +441,7 @@ footer{
 }
 @media  (min-width: 600px) and (max-width: 1600px){
     .plan-card{
-        width: 30vw;
+        width: 20vw;
         height: 50vh;
         padding: 1vw;
         font-size: 1.2vw;
