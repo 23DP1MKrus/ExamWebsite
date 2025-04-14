@@ -928,5 +928,200 @@ footer{
 #right-about p{
     font-size: 1.2vw;
 }
+@media (max-width: 1040px) {
+    #secondSection{
+        height: 160vh;
+    }
+    .offer-widget button{
+        background-color: #1E1E1E;
+        width: 3.5vw;
+        height: 4.2vh;
+        border-radius: 1.6vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: none;
+        margin: 0.8vw;
+        font-size: 3vh;
+        position: relative;
+        bottom: 45vh;
+        left: 11.7vw;
+    }
+    #chalanges-buttons{
+        background-color: #1E1E1E;
+        width: 3.5vw;
+        height: 4.2vh;
+        border-radius: 1.6vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: none;
+        margin: 0.8vw;
+        font-size: 3vh;
+        position: relative;
+        bottom: 46vh;
+        left: 11.7vw;
+    }
+    .offer-widget button img{
+        width: 5vh;
+    }
+    .offer-widget{
+        background-image: url("imgs/offer-widget-bg.png");
+        background-size: contain;
+        background-repeat: no-repeat;
+        padding: 0;
+        margin: 0;
+        height: 90%;
+        width: 20%;
+        color: white;
+    }
+    .offer-widgets{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        height: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+    .offer-widget h2{
+        width: 10vw;
+        font-size: 4vh;
+        font-family: "Bebas Neue", sans-serif;
+        font-weight: lighter;
+        padding: 2vw 1.5vh;
+        margin-bottom: -1vh;
+    }
+    .offer-widget-p{
+        font-size: 2vh;
+        padding-left: 1.5vw;
+        margin: 0;
+        margin-top: 2vh;
+        width: 10vw;
+    }
+    .offer-widget img{
+        margin-left: 2vw;
+        width: 9vw;
+    }
+
+    .widget p{
+        font-size: 2vh;
+        width: 10vw;
+        margin: 4vh;
+    }
+    .widget button{
+        background-color: #1E1E1E;
+        width: 9vw;
+        height: 7vh;
+        border-radius: 2vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: none;
+        margin: 1vw;
+        font-size: 3vh;
+        position: relative;
+        bottom: 26.5vh;
+        left: 18vw;
+    }
+}
+
+
+@media (max-width: 1300px) {
+    #secondSection{
+        height: 140vh;
+    }
+    .offer-widget button{
+        background-color: #1E1E1E;
+        width: 3.4vw;
+        height: 3.6vh;
+        border-radius: 1.6vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: none;
+        margin: 0.8vw;
+        font-size: 3vh;
+        position: relative;
+        bottom: 39vh;
+        left: 10vw;
+    }
+    #chalanges-buttons{
+        background-color: #1E1E1E;
+        width: 3.4vw;
+        height: 3.6vh;
+        border-radius: 1.6vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: none;
+        margin: 0.8vw;
+        font-size: 3vh;
+        position: relative;
+        bottom: 40vh;
+        left: 10vw;
+    }
+    .offer-widget button img{
+        width: 5vh;
+    }
+    .offer-widget{
+        background-image: url("imgs/offer-widget-bg.png");
+        background-size: contain;
+        background-repeat: no-repeat;
+        padding: 0;
+        margin: 0;
+        height: 90%;
+        width: 15%;
+        color: white;
+    }
+    .offer-widgets{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        height: 100%;
+        align-items: center;
+        justify-content: center;
+        gap: 1vw;
+    }
+    .offer-widget h2{
+        width: 10vw;
+        font-size: 4vh;
+        font-family: "Bebas Neue", sans-serif;
+        font-weight: lighter;
+        padding: 2vw 1.5vh;
+        margin-bottom: -1vh;
+    }
+    .offer-widget-p{
+        font-size: 1.7vh;
+        padding-left: 1.5vw;
+        margin: 0;
+        margin-top: 2vh;
+        width: 10vw;
+    }
+    .offer-widget img{
+        margin-left: 2vw;
+        width: 8vw;
+    }
+
+    .widget p{
+        font-size: 1.5vh;
+        width: 10vw;
+        margin: 4vh;
+    }
+    .widget button{
+        background-color: #1E1E1E;
+        width: 9vw;
+        height: 7vh;
+        border-radius: 2vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: none;
+        margin: 1vw;
+        font-size: 3vh;
+        position: relative;
+        bottom: 23vh;
+        left: 18vw;
+    }
+}
 
 
