@@ -1124,4 +1124,60 @@ footer{
     }
 }
 
+@media (max-width: 100000px ) {
+    #Mobile-main{
+        display: none;
+    }
+}
+@media (max-width: 450px) {
+    footer{
+        display: none;
+    }
+    #Desktop-main{
+        display: none;
+    }
+    #Mobile-main{
+        display: block;
+    }
+    marquee{
+        margin-left: 1vw;
+        display: flex;
+        flex-direction: row;
+    }
+    marquee li img{
+        width: 20%;
+        height: 100%;
+    }
+    #heroText-mobile{
+        margin-left: 3vh;
+        margin-top: 30%;
+        color: white;
+        width: 70%;
+    }
+    #heroButtonsContainer-mobile{
+        display: flex;
+        gap: 2vh;
+        margin-top: 4vh;
+    }
+    #heroText-mobile h1{
+        font-size: 6vh;
+        width: 70%;
+        margin-bottom: 0;
+    }
+    .outlineButton{
+        width: 50%;
+        font-size: 1.5vh;
+    }
+    .arrowButtonViolet{
+        width: 16%;
+        border-radius: 2vh;
+    }
+    .arrowButtonViolet img{
+        width: 100%;
+    }
+    #heroSection-mobile{
+        height: 100%;
+    }
+}
+
 
