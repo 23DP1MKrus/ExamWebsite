@@ -379,6 +379,56 @@
 
     <main id="Mobile-main">
 
+        <section id="heroSection-mobile">
+
+            <nav role="navigation">
+                <div id="menuToggle">
+
+                    <input type="checkbox" id="menuCheckbox" />
+
+                    <span></span>
+                    <span></span>
+                    <span></span>
+
+                    <ul id="menu">
+
+                        <li>
+                            <a href="#">
+                                <label for="menuCheckbox" onclick="this.parentNode.click();">Home</label>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#about">
+                                <label for="menuCheckbox" onclick="this.parentNode.click();">About</label>
+                            </a>
+                        </li>
+
+                        <li><label for="menuCheckbox"><a>Info</a></label></li>
+                        <li><label for="menuCheckbox"><a>Contact</a></label></li>
+
+                    </ul>
+                </div>
+            </nav>
+
+            <div id="heroText-mobile">
+                <h1>FORGE YOUR BEST SELF</h1>
+                <p>Track progress, crush workouts, and unlock your full potential — all in one app.</p>
+                <div id="heroButtonsContainer-mobile">
+                    <button class="outlineButton">try it out</button>
+                    <button class="arrowButtonViolet"><img src="src/imgs/basil_arrow-up-solid.png"></button>
+                </div>
+            </div>
+
+            <marquee behavior="scroll" >
+                <div>
+                    <img src="src/imgs/image1.png">
+                    <img src="src/imgs/image2.png">
+                    <img src="src/imgs/image3.png">
+                    <img src="src/imgs/image4.png">
+                </div>
+            </marquee>
+        </section>
+
         <section id="secondSection-mobile">
                 <div id="mobile-widget">
                     <button><img src="src/imgs/basil_arrow-up-solid.png"></button>
@@ -441,6 +491,9 @@
             </div>
         </section>
     </main>
+
+
+
     <footer>
         <p>@all right reserved</p>
     </footer>
