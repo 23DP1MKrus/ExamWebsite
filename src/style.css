@@ -265,6 +265,7 @@ h1{
 }
 .offer-widget img{
     margin-left: 2vw;
+    width: 40%;
 }
 .offer-widget button img{
     margin-left: 0;
