@@ -1262,6 +1262,9 @@ footer{
         aspect-ratio: 8.7 / 16;
         color: white;
     }
+    .hidden{
+        display: none;
+    }
     .cardsBtn{
         background-color: #070707;
         border: none;
