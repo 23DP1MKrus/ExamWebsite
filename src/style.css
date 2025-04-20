@@ -1494,7 +1494,7 @@ footer{
         margin-top: 0;
         margin-bottom: 0;
         color: #9758e4;
-        font-size: 19vh;
+        font-size: 16vh;
         text-align: center;
     }
     .card{
@@ -1513,7 +1513,7 @@ footer{
     }
     .card h2{
         font-family: "Bebas Neue", sans-serif;
-        font-size: 20vw;
+        font-size: 10vh;
         font-weight: lighter;
         margin-bottom: 0;
         margin-top: 4vw;
