@@ -1537,6 +1537,103 @@ footer{
         font-size: 2vh;
         margin-bottom: 4vw;
     }
+    #mobile-guide-section{
+        z-index: 6;
+        background-color: black;
+        position: relative;
+        height: 120vh;
+    }
+    #guide-text-mobile{
+        color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        margin-left: 3vw;
+    }
+    #guide-text-mobile h1{
+        margin: 0;
+        padding: 0;
+        font-size: 40vw;
+        color: #9758e4;
+        font-weight: lighter;
+    }
+    #guide-text-mobile p{
+        font-size: 2.3vh;
+        margin-left: 2vw;
+        width: 80%;
+        margin-top: 0;
+    }
+    #steps-mobile{
+        padding: 3vw;
+        display: flex;
+        flex-direction: column;
+        gap: 3vh;
+        height: 100%;
+        justify-content: space-around;
+        align-items: center;
+        margin-top: 4vh;
+    }
+    #step1-mobile{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        background-color: white;
+        border-radius: 2vh;
+        width: 80%;
+        padding: 2vh;
+    }
+    #step1-mobile button{
+        padding: 2vh;
+        font-size: 4vw;
+        width: 80%;
+        background-color: #9758e4;
+        border-radius: 2vh;
+        color: white;
+        border: none;
+    }
+    #steps-mobile h2{
+        font-family: "Bebas Neue", sans-serif;
+        font-size:10vw;
+        font-weight: lighter;
+        margin: 0;
+    }
+    .step2-4-mobile{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        color: white;
+        border: 2px solid white;
+        border-radius: 2vh;
+        width: 80%;
+        padding: 2vh;
+    }
+    .step-p-mobile{
+        display: flex;
+        width: 100%;
+        align-items: center;
+        gap: 2vw;
+    }
+    #step3-mobile{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        background-color: white;
+        color: black;
+        border: 2px solid white;
+        border-radius: 2vh;
+        width: 80%;
+        padding: 2vh;
+    }
+    .purple-line-mobile{
+        height: 80%;
+        background-color: #9758e4;
+        width: 3px;
+    }
+    #purple-line-mobile{
+        height: 80%;
+        background-color: #9758e4;
+        width: 2px;
+    }
 
 }
 
