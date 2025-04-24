@@ -1327,7 +1327,6 @@ footer{
         height: 100%;
     }
     #secondSection-mobile{
-        height: 130vh;
         border-radius: 2vh;
         background-color: white;
         display: flex;
@@ -1382,6 +1381,7 @@ footer{
     }
     #cards-arrows{
         width: 100%;
+        height: 100%;
         display: flex;
         align-items: center;
         justify-content: space-around;
@@ -1403,6 +1403,7 @@ footer{
     }
     .slider-card{
         width: 80%;
+        height: 100%;
         background-image: url("imgs/sliderCardBg.png");
         background-size: contain;
         background-position: center;
@@ -1455,28 +1456,183 @@ footer{
         display: flex;
         align-items: center;
         justify-content: space-between;
-        width: 22%;
-        height: 10%;
+        width: 25%;
     }
     .now-circle{
-        width: 18%;
-        height: 22%;
+        width: 4vw;
+        height: 2vh;
         background-color: #9758e4;
         border-radius: 10vw;
     }
     .circle{
-        width: 18%;
-        height: 22%;
+        margin-top: 2vh;
+        margin-bottom: 2vh;
+        width: 4vw;
+        height: 2vh;
         background-color: #070707;
         border-radius: 10vw;
     }
     #slider{
         width: 100%;
-        height: 70%;
+        height: 100%;
         display: flex;
         flex-direction: column;
         justify-content: start;
         align-items: center;
+    }
+    #plans-section{
+        background-image: url("imgs/plansMobileBg.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 200vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    #plans-section h1{
+        margin-top: 0;
+        margin-bottom: 0;
+        color: #9758e4;
+        font-size: 16vh;
+        text-align: center;
+    }
+    .card{
+        backdrop-filter: blur(40px);
+        background: rgba(0, 0, 0, 0.01);
+        border-radius: 4vw;
+        color: white;
+        border: 2px solid rgba(151, 88, 228, 0.24);
+        width: 75%;
+        height: 30%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 2.3vh;
+    }
+    .card h2{
+        font-family: "Bebas Neue", sans-serif;
+        font-size: 10vh;
+        font-weight: lighter;
+        margin-bottom: 0;
+        margin-top: 4vw;
+        text-align: center;
+    }
+    .card ul{
+        margin-bottom: 0;
+        margin-top: 0;
+    }
+    .card li{
+        list-style-type: circle;
+        color: white;
+        line-height:300%;
+    }
+    .dwn-button{
+        padding: 2vh 4vw;
+        border-radius: 3vw;
+        border: none;
+        color: #9758e4;
+        background-color: black;
+        font-size: 2vh;
+        margin-bottom: 4vw;
+    }
+    #mobile-guide-section{
+        z-index: 6;
+        background-color: black;
+        position: relative;
+        height: 120vh;
+    }
+    #guide-text-mobile{
+        color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        margin-left: 3vw;
+    }
+    #guide-text-mobile h1{
+        margin: 0;
+        padding: 0;
+        font-size: 40vw;
+        color: #9758e4;
+        font-weight: lighter;
+    }
+    #guide-text-mobile p{
+        font-size: 2.3vh;
+        margin-left: 2vw;
+        width: 80%;
+        margin-top: 0;
+    }
+    #steps-mobile{
+        padding: 3vw;
+        display: flex;
+        flex-direction: column;
+        gap: 3vh;
+        height: 100%;
+        justify-content: space-around;
+        align-items: center;
+        margin-top: 4vh;
+    }
+    #step1-mobile{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        background-color: white;
+        border-radius: 2vh;
+        width: 80%;
+        padding: 2vh;
+    }
+    #step1-mobile button{
+        padding: 2vh;
+        font-size: 4vw;
+        width: 80%;
+        background-color: #9758e4;
+        border-radius: 2vh;
+        color: white;
+        border: none;
+    }
+    #steps-mobile h2{
+        font-family: "Bebas Neue", sans-serif;
+        font-size:10vw;
+        font-weight: lighter;
+        margin: 0;
+    }
+    .step2-4-mobile{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        color: white;
+        border: 2px solid white;
+        border-radius: 2vh;
+        width: 80%;
+        padding: 2vh;
+    }
+    .step-p-mobile{
+        display: flex;
+        width: 100%;
+        align-items: center;
+        gap: 2vw;
+    }
+    #step3-mobile{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        background-color: white;
+        color: black;
+        border: 2px solid white;
+        border-radius: 2vh;
+        width: 80%;
+        padding: 2vh;
+    }
+    .purple-line-mobile{
+        height: 80%;
+        background-color: #9758e4;
+        width: 3px;
+    }
+    #purple-line-mobile{
+        height: 80%;
+        background-color: #9758e4;
+        width: 2px;
     }
     #mockupSection-mobile{
         height: 50vh;
@@ -1552,5 +1708,8 @@ footer{
         z-index: 2;
     }
 }
+
+
+
 
 
