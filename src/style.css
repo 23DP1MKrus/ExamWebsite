@@ -1673,6 +1673,7 @@ footer{
         font-size: 15vw;
         padding-top: 10%;
         margin-bottom: -0.5vh;
+        margin-top: 0;
     }
     .review-mobile img{
         width: 12vh;
@@ -1682,7 +1683,7 @@ footer{
     .review-mobile{
         color: white;
         background-color: #070707;
-        height: 34%;
+        height: 62%;
         width: 43vh;
         margin-bottom: 3vh;
         border-radius: 2vh;
@@ -1734,6 +1735,12 @@ footer{
     #left-about-mobile{
         display: grid;
         width: 93%;
+    }
+    #reviews-mobile{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-evenly;
     }
     #about-picture-mobile{
         width: 100%;
