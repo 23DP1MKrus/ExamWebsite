@@ -1424,8 +1424,8 @@ footer{
         align-items: center;
         justify-content: center;
         position: relative;
-        left: 76.5%;
-        bottom: 1%;
+        left: 76%;
+        bottom: 2.5%;
     }
     .slider-card h1{
         font-size: 12vw;
@@ -1876,8 +1876,59 @@ footer{
         margin-bottom: 2vh;
     }
 }
+.leftAnim{
+    animation: LeftAnim 1s 1;
+}
+.rightAnim{
+    animation: RightAnim 1s 1;
+}
 
+.leftAnimReversed{
+    animation: LeftAnimReversed 1s 1;
+}
+.rightAnimReversed{
+    animation: RightAnimReversed 1s 1;
+}
 
-
+@keyframes LeftAnim {
+    0%{
+        opacity: 100%;
+        transform: translateX(0%);
+    }
+    100%{
+        opacity: 0;
+        transform: translateX(20%);
+    }
+}
+@keyframes RightAnim {
+    0%{
+        opacity: 100%;
+        transform: translateX(0%);
+    }
+    100%{
+        opacity: 0;
+        transform: translateX(-20%);
+    }
+}
+@keyframes LeftAnimReversed {
+    0%{
+        opacity: 0;
+        transform: translateX(20%);
+    }
+    100%{
+        opacity: 100%;
+        transform: translateX(0%);
+    }
+}
+@keyframes RightAnimReversed {
+    0%{
+        opacity: 0;
+        transform: translateX(-20%);
+    }
+    100%{
+        opacity: 100%;
+        transform: translateX(0%);
+    }
+}
 
 
