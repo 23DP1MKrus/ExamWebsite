@@ -121,80 +121,99 @@ marquee li img{
 }
 .unleash{
     display: flex;
-    justify-content: space-between;
+    align-items: center;
+    justify-content:space-evenly;
+    height: 20%;
 }
 .second-section-text p{
-    margin-top: -2vh;
-    width: 30vw;
+    margin-top: 0;
+    width: 60%;
 }
 h1{
     font-size: 4vw;
     font-family: "Bebas Neue", sans-serif;
     font-weight: lighter;
+    margin-top: 0;
 }
 #imgWidget{
     display: flex;
     background-image: url("imgs/img_widget.png");
     background-repeat: no-repeat;
     background-size: cover;
-    width: 17vw;
-    height: 28vh;
+    width: 35%;
+    aspect-ratio: 9/9;
+    min-height: 100%;
     border-radius: 1vw;
     justify-content: flex-end;
     align-items: end;
 }
 #imgWidget button{
     background: #9758e4;
-    width: 10vw;
-    height: 5vh;
     border-radius: 1.3vh;
+    width: 50%;
+    height: 20%;
     display: flex;
     align-items: center;
     justify-content: center;
     border: none;
-    margin: 1vw;
     font-size: 3vh;
     color: white;
     font-weight: lighter;
     font-family: "Bebas Neue", sans-serif;
+    margin: 1vh;
 }
 .second-Section-Widgets{
-    margin-top: 6vh;
     display: flex;
+    justify-content: center;
+    align-items: center;
     gap: 2vw;
-
+    width: 40%;
+    min-height: 100%;
 }
 .widget{
-    background-image: url("imgs/widget-bg.png");
+    background-image: url("imgs/bgWidgetMobile.png");
     background-size: contain;
     background-repeat: no-repeat;
-    width: 29vw;
+    width: 65%;
+    height: 100%;
+    aspect-ratio: 15/8;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
     color: white;
 }
 .widget h2{
     font-weight: lighter;
     font-family: "Bebas Neue", sans-serif;
-    font-size: 4vh;
-    margin: 4vh;
+    font-size: 2vw;
+    margin-left: 3%;
 }
 .widget p{
-    width: 10vw;
-    margin: 4vh;
+    width: 50%;
+    font-size:1vw;
+    margin-bottom: 0;
+    margin-left: 3%;
 }
 .widget button{
     background-color: #1E1E1E;
-    width: 9vw;
-    height: 7vh;
+    width: 35%;
+    height: 100%;
     border-radius: 2vh;
     display: flex;
     align-items: center;
     justify-content: center;
     border: none;
-    margin: 1vw;
     font-size: 3vh;
     position: relative;
-    bottom: 23vh;
-    left: 18vw;
+    right: 1%;
+}
+#title-btn{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 30%;
 }
 .line{
     margin-top: 10vh;
@@ -208,64 +227,74 @@ h1{
     gap: 1vh;
     flex-direction: column;
     height: 64%;
+    margin-top: 3%;
 }
 #what-we-offer-p{
     margin-top: -3vh;
     width: 30vw;
     text-align: center;
-    margin-bottom: 4vh;
+    margin-bottom: 4%;
 }
 .offer-widget{
     background-image: url("imgs/offer-widget-bg.png");
     background-size: contain;
     background-repeat: no-repeat;
+    aspect-ratio: 9/16;
     padding: 0;
     margin: 0;
-    height: 90%;
-    width: 20%;
+    width: 17%;
     color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-between;
+}
+.offer-widget-title-btn{
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    width: 100%;
+    height: 20%;
 }
 .offer-widgets{
     display: flex;
     flex-direction: row;
     width: 100%;
-    height: 100%;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
 }
 .offer-widget button{
+    height: 40%;
+    width: 22%;
     background-color: #1E1E1E;
-    width: 3.5vw;
-    height: 4.2vh;
-    border-radius: 1.6vh;
+    border-radius: 0.8vw;
     display: flex;
     align-items: center;
     justify-content: center;
     border: none;
-    margin: 0.8vw;
     font-size: 3vh;
     position: relative;
-    bottom: 47vh;
-    left: 10.9vw;
+    right: 3%;
 }
 .offer-widget h2{
     width: 10vw;
-    font-size: 4vh;
+    font-size: 2vw;
     font-family: "Bebas Neue", sans-serif;
     font-weight: lighter;
-    padding: 2vw 1.5vh;
-    margin-bottom: -1vh;
+    margin-top: 4%;
+    margin-bottom: 0;
+    margin-left: 4%;
 }
 .offer-widget-p{
-    font-size: 2vh;
+    font-size: 1vw;
     padding-left: 1.5vw;
     margin: 0;
-    margin-top: 2vh;
+    margin-bottom: 5%;
     width: 10vw;
 }
 .offer-widget img{
-    margin-left: 2vw;
-    width: 40%;
+    margin-left: 17%;
+    width: 60%;
 }
 .offer-widget button img{
     margin-left: 0;
@@ -929,204 +958,8 @@ footer{
 #right-about p{
     font-size: 1.2vw;
 }
-@media (max-width: 1040px) {
-    #secondSection{
-        height: 160vh;
-    }
-    .offer-widget button{
-        background-color: #1E1E1E;
-        width: 3.5vw;
-        height: 4.2vh;
-        border-radius: 1.6vh;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        border: none;
-        margin: 0.8vw;
-        font-size: 3vh;
-        position: relative;
-        bottom: 45vh;
-        left: 11.7vw;
-    }
-    #chalanges-buttons{
-        background-color: #1E1E1E;
-        width: 3.5vw;
-        height: 4.2vh;
-        border-radius: 1.6vh;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        border: none;
-        margin: 0.8vw;
-        font-size: 3vh;
-        position: relative;
-        bottom: 46vh;
-        left: 11.7vw;
-    }
-    .offer-widget button img{
-        width: 5vh;
-    }
-    .offer-widget{
-        background-image: url("imgs/offer-widget-bg.png");
-        background-size: contain;
-        background-repeat: no-repeat;
-        padding: 0;
-        margin: 0;
-        height: 90%;
-        width: 20%;
-        color: white;
-    }
-    .offer-widgets{
-        display: flex;
-        flex-direction: row;
-        width: 100%;
-        height: 100%;
-        align-items: center;
-        justify-content: center;
-    }
-    .offer-widget h2{
-        width: 10vw;
-        font-size: 4vh;
-        font-family: "Bebas Neue", sans-serif;
-        font-weight: lighter;
-        padding: 2vw 1.5vh;
-        margin-bottom: -1vh;
-    }
-    .offer-widget-p{
-        font-size: 2vh;
-        padding-left: 1.5vw;
-        margin: 0;
-        margin-top: 2vh;
-        width: 10vw;
-    }
-    .offer-widget img{
-        margin-left: 2vw;
-        width: 10%;
-    }
-
-    .widget p{
-        font-size: 2vh;
-        width: 10vw;
-        margin: 4vh;
-    }
-    .widget button{
-        background-color: #1E1E1E;
-        width: 9vw;
-        height: 7vh;
-        border-radius: 2vh;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        border: none;
-        margin: 1vw;
-        font-size: 3vh;
-        position: relative;
-        bottom: 26.5vh;
-        left: 18vw;
-    }
-    #heroSection-mobile{
-        height: 50%;
-    }
-}
 
 
-@media (max-width: 1300px) {
-    #secondSection{
-        height: 140vh;
-    }
-    .offer-widget button{
-        background-color: #1E1E1E;
-        width: 3.4vw;
-        height: 3.6vh;
-        border-radius: 1.6vh;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        border: none;
-        margin: 0.8vw;
-        font-size: 3vh;
-        position: relative;
-        bottom: 39vh;
-        left: 10vw;
-    }
-    #chalanges-buttons{
-        background-color: #1E1E1E;
-        width: 3.4vw;
-        height: 3.6vh;
-        border-radius: 1.6vh;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        border: none;
-        margin: 0.8vw;
-        font-size: 3vh;
-        position: relative;
-        bottom: 40vh;
-        left: 10vw;
-    }
-    .offer-widget button img{
-        width: 5vh;
-    }
-    .offer-widget{
-        background-image: url("imgs/offer-widget-bg.png");
-        background-size: contain;
-        background-repeat: no-repeat;
-        padding: 0;
-        margin: 0;
-        height: 90%;
-        width: 15%;
-        color: white;
-    }
-    .offer-widgets{
-        display: flex;
-        flex-direction: row;
-        width: 100%;
-        height: 100%;
-        align-items: center;
-        justify-content: center;
-        gap: 1vw;
-    }
-    .offer-widget h2{
-        width: 10vw;
-        font-size: 4vh;
-        font-family: "Bebas Neue", sans-serif;
-        font-weight: lighter;
-        padding: 2vw 1.5vh;
-        margin-bottom: -1vh;
-    }
-    .offer-widget-p{
-        font-size: 1.7vh;
-        padding-left: 1.5vw;
-        margin: 0;
-        margin-top: 2vh;
-        width: 10vw;
-    }
-    .offer-widget img{
-        margin-left: 2vw;
-        width: 8vw;
-    }
-
-    .widget p{
-        font-size: 1.5vh;
-        width: 10vw;
-        margin: 4vh;
-    }
-    .widget button{
-        background-color: #1E1E1E;
-        width: 9vw;
-        height: 7vh;
-        border-radius: 2vh;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        border: none;
-        margin: 1vw;
-        font-size: 3vh;
-        position: relative;
-        bottom: 23vh;
-        left: 18vw;
-    }
-}
 
 @media (max-width: 100000px ) {
     #Mobile-main{
