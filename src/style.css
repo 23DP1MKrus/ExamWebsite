@@ -7,7 +7,9 @@ body{
     padding:0;
     font-family: "Raleway", sans-serif;
 }
-
+html{
+    scroll-behavior: smooth;
+}
 #heroSection {
     display: flex;
     flex-direction: row;
@@ -82,6 +84,17 @@ nav{
     height: 4vh;
 
 }
+.outlineButton:hover{
+    font-size: 1vw;
+    color: white;
+    background-color: #9758e4;
+    box-shadow: 0 0 5px #8b00ff, 0 0 20px #a133ff, 0 0 40px #a741ff;
+    border: none;
+    border-radius: 20px;
+    width: 10vw;
+    height: 4vh;
+    transition: 1s;
+}
 .arrowButtonViolet{
     background: #9758e4;
     width: 2.2vw;
@@ -120,9 +133,23 @@ marquee li img{
     margin-top: -43vh;
 }
 .unleash{
+    animation: appear 5s linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 30%;
     display: flex;
     justify-content: space-between;
 }
+@keyframes appear {
+    from {
+        opacity: 0;
+        scale: 0.4;
+    }
+    to{
+        opacity: 1;
+        scale: 1;
+    }
+}
+
 .second-section-text p{
     margin-top: -2vh;
     width: 30vw;
@@ -202,6 +229,9 @@ h1{
     width: 100%;
 }
 #What-we-offer{
+    animation: appear 5s linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 30%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -301,6 +331,9 @@ h1{
     text-align: center;
 }
 .plan-card{
+    animation: appear 5s linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 30%;
     backdrop-filter: blur(80px);
     background: rgba(0, 0, 0, 0.01);
     border-radius: 1vw;
@@ -329,6 +362,12 @@ h1{
     font-size: 2vh;
     margin-bottom: 2.5vw;
 }
+.down-button:hover{
+    box-shadow: 0 0 5px #e5c9f6, 0 0 20px #e1c0ff, 0 0 40px #cdadff;
+    transition: 1s;
+    background-color: white;
+    color: black;
+}
 #guide{
     z-index: 6;
     background-color: black;
@@ -353,6 +392,9 @@ h1{
     width: 30%;
 }
 #steps{
+    animation: appear 5s linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 30%;
     padding: 3vw;
     display: flex;
     gap: 1vw;
@@ -427,7 +469,7 @@ h1{
     background-color: #9758e4;
     width: 8px;
 }
-footer{
+#desktop-footer{
     margin-top: 6vw;
     padding-top: 3vw;
     text-align: center;
@@ -447,6 +489,9 @@ footer{
     background-color: black;
 }
 #macbookMockup{
+    animation: appear 5s linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 30%;
     align-self: center;
     justify-self: center;
     width: 50%;
@@ -464,6 +509,9 @@ footer{
     font-size: 9vw;
 }
 #meetWord{
+    animation: appear 5s linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 30%;
     align-self: start;
     justify-self: start;
     padding:0;
@@ -471,6 +519,9 @@ footer{
     margin: 0 0 -10vh 17.5vw;
 }
 #futureWord{
+    animation: appear 5s linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 30%;
     align-self: end;
     justify-self: end;
     padding:0;
@@ -501,6 +552,9 @@ footer{
     justify-self: center;
 }
 #review-jeff{
+    animation: appear 5s linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 30%;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -544,6 +598,9 @@ footer{
     width: 10%;
 }
 #review-sarah{
+    animation: appear 5s linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 30%;
     background-color: black;
     width: 20%;
     height: 40%;
@@ -586,6 +643,9 @@ footer{
     margin-left: 1vw;
 }
 #review-jack{
+    animation: appear 5s linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 30%;
     background-color: black;
     width: 25%;
     height: 45%;
@@ -627,6 +687,9 @@ footer{
     width: 30%;
 }
 #review-kristaps{
+    animation: appear 5s linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 30%;
     background-color: black;
     width: 25%;
     height: 40%;
@@ -668,6 +731,9 @@ footer{
     width: 40%;
 }
 #review-sam{
+    animation: appear 5s linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 30%;
     background-color: black;
     display: flex;
     flex-direction: column;
@@ -719,6 +785,9 @@ footer{
     height: 35%;
 }
 #twin-review{
+    animation: appear 5s linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 30%;
     display: flex;
     flex-direction: column;
     align-items: start;
@@ -795,6 +864,9 @@ footer{
     width: 40%;
 }
 #about-picture{
+    animation: appear 5s linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 30%;
     width: 100%;
     align-self: start;
     justify-self: start;
@@ -803,6 +875,9 @@ footer{
     border-radius: 1vw;
 }
 #left-lower-first{
+    animation: appear 5s linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 30%;
     position: relative;
     background-color: white;
     width: 47%;
@@ -824,6 +899,9 @@ footer{
     font-size: 1vw;
 }
 #left-lower-second{
+    animation: appear 5s linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 30%;
     background-color: #9758e4;
     border-radius: 1vw;
     color: white;
@@ -888,6 +966,9 @@ footer{
 
 }
 #right-about{
+    animation: appear 5s linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 30%;
     width: 50%;
     height: 100%;
     display: flex;
@@ -928,6 +1009,14 @@ footer{
 }
 #right-about p{
     font-size: 1.2vw;
+}
+
+#rightSide a{
+    text-decoration: none;
+    color: white;
+}
+#rightSide a:hover {
+    color: #9758e4;
 }
 @media (max-width: 1040px) {
     #secondSection{
@@ -1126,6 +1215,7 @@ footer{
         bottom: 23vh;
         left: 18vw;
     }
+
 }
 
 @media (max-width: 100000px ) {
@@ -1271,14 +1361,14 @@ footer{
 
 
 
-    footer{
+    #desktop-footer{
         display: none;
     }
     #Desktop-main{
         display: none;
     }
     #Mobile-main{
-        display: block;
+        display: flex;
     }
     marquee{
         height: 50%;
@@ -1425,7 +1515,7 @@ footer{
         justify-content: center;
         position: relative;
         left: 76.5%;
-        bottom: 1%;
+        bottom: 3%;
     }
     .slider-card h1{
         font-size: 12vw;
@@ -1538,10 +1628,12 @@ footer{
         margin-bottom: 4vw;
     }
     #mobile-guide-section{
-        z-index: 6;
+
+        margin-bottom: 10vh;
         background-color: black;
         position: relative;
         height: 120vh;
+        padding-bottom: 2vh;
     }
     #guide-text-mobile{
         color: white;
@@ -1867,6 +1959,31 @@ footer{
     #about-text-mobile h1{
         font-size: 7vh;
         margin-bottom: 2vh;
+    }
+
+    #Mobile-main {
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+        position: relative;
+    }
+
+    #mobile-footer {
+        margin-top: 30vh;
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background-color: white;
+        text-align: center;
+        padding: 1rem 0;
+        border-radius: 2vh 2vh 0 0;
+    }
+
+    #mobile-footer p {
+        margin: 0;
+        color: black;
+        font-weight: bold;
     }
 }
 
