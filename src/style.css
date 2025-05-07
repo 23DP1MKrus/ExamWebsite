@@ -10,6 +10,10 @@ body{
 html{
     scroll-behavior: smooth;
 }
+.down-a{
+    text-decoration: none;
+    color: #9758e4;
+}
 #heroSection {
     display: flex;
     flex-direction: row;
