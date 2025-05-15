@@ -14,6 +14,13 @@ html{
     text-decoration: none;
     color: #9758e4;
 }
+a{
+    text-decoration: none;
+    color: white;
+}
+#outline-btn a{
+    color: black;
+}
 #heroSection {
     display: flex;
     flex-direction: row;
@@ -198,7 +205,7 @@ h1{
     justify-content: center;
     align-items: center;
     gap: 2vw;
-    width: 40%;
+    width: 60%;
     min-height: 100%;
 }
 .widget{
@@ -1563,12 +1570,11 @@ h1{
         margin-bottom: 4vw;
     }
     #mobile-guide-section{
-
-        margin-bottom: 10vh;
+        margin-bottom: 30%;
         background-color: black;
         position: relative;
         height: 120vh;
-        padding-bottom: 2vh;
+        padding-bottom: 5vh;
     }
     #guide-text-mobile{
         color: white;
@@ -1912,8 +1918,9 @@ h1{
     }
 
     #mobile-footer {
-        margin-top: 30vh;
-        position: fixed;
+        margin-top: 100%;
+        position: relative;
+        top: 150%;
         left: 0;
         bottom: 0;
         width: 100%;
